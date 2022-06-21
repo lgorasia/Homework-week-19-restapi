@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 12.453 sec <<< FAILURE! - in com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest
+test003(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 1.921 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test003(DummyRestAPICURDTest.java:68)
+
+test008(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 0.766 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test008(DummyRestAPICURDTest.java:112)
+
+test009(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 1.063 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.lang.String
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test009(DummyRestAPICURDTest.java:120)
+
+test011(com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest)  Time elapsed: 0.828 sec  <<< ERROR!
+java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.util.List
+	at com.restapiexample.dummy.dummyrestapiInfo.DummyRestAPICURDTest.test011(DummyRestAPICURDTest.java:136)
+
